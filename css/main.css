@@ -1,0 +1,306 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	
+	background-image: url('../images/front-page-header.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+	height: 100vh;
+	
+}
+nav{
+	width: 100%;
+	height: 100px;
+}
+
+.logo{
+	
+	height: 300px;
+	width: 5%;
+	float: left;
+	margin-left: 60 ;
+	margin-top: 40;
+}
+
+.logo img{
+	width: 100px;
+}
+
+.links{
+	width: 55%;
+	float: left;
+	margin-left: 300px;
+}
+
+
+.links ul {
+	list-style: none;
+}
+
+.links ul li {
+	display: inline-block;
+	margin: 20px;
+	font-size: 20px;
+	float: right;
+}
+.links ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+}
+.links ul li:hover a{
+	color: gold;
+}
+.sec1 {
+	text-align: center;
+	margin-top: 100px;
+	
+}
+.sec1 h1 {
+	margin-bottom: 10px;
+	font-size: 60px;
+	padding:10px;
+	text-align: center;
+	color: #fff;
+}
+
+.sec1 h4{
+	margin-top: 100px;
+	color: white;
+	font-size: 30px;
+
+	
+}
+
+label{color: yellow;
+}
+h4{
+	color: white;
+}
+.but2{
+	background-color: #f1d204;
+	text-align: center;
+	width:150px;
+	height: 50px;
+	display: inline-block;
+	color: white;
+	
+}
+.but{
+	box-shadow: 100 100 20 20;
+	border: 3px solid white;
+	text-align: center;
+	width:130px;
+	height: 50px;
+	display: inline-block;
+	background: rgb(81 92 100);
+	color: white;
+	top: 0px;
+	
+}
+.but2:hover {
+background-color: purple;
+	
+}
+.sec2 {
+	margin-top:100px;
+}
+.sec2 text{
+	margin-top: 50px;
+}
+.h_2{
+	text-align: center;
+	font-size: 30px;
+}
+.sec2 p{
+	width: 70%;
+	text-align: center;
+	margin: 80 200;
+	color: black;
+}
+.B{
+	text-align: center;
+	width: 80%;
+	margin:80 200;
+}
+.A{
+	display:inline-block;
+	margin-right: 20px;
+	width: 23%;
+	background-color: cornflowerblue;
+}
+.sec3{
+	background-color:slategrey; 
+	height: 100%
+}
+.sec3 h1 {
+	font-size: 40px;
+	text-align: center;
+}
+.sec3 p{
+	margin-top: 80px;
+	text-align: center;
+	font-size:30px;
+	margin-left: auto;
+}
+.lar{
+	width: 100%;
+	height:100%;
+    background-color: aquamarine;
+}
+.s_1{
+	width:  25% ;
+	height: 555px;
+	float: left;
+	background-color: blueviolet;
+}
+s_1 a img{
+	width : 100% ;
+	height: 100%;
+}
+.sec4{
+	background-image: url('../images/testiomnials-background.jpg');
+	height: 100vh;
+	width: 100%;
+}
+.sec4 h4 {
+	font-size: 30px;
+	width: 80%;
+	color: white;
+	margin: auto;
+	
+}
+.sec4 h1{
+	padding-top: 50px;
+	color: white;
+	top: 200px ;
+	text-align: center;
+	font-size: 50px;
+}
+.sec4 h4{
+ 	text-align: center;
+    margin-top: 120px;
+ }
+.im img{
+	width :80px; 
+    height:80px;
+	margin-top :100px;
+	border-radius:50%;
+	text-align:center;
+	
+}
+.im{
+	text-align: center;
+}
+.sec5{
+	background-color:#222f36;
+	color: white;  
+}
+.sec5 h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	letter-spacing: 20px;
+}
+.sec5 p{
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	
+}
+.parent{
+	margin-left: 300px;
+	width: 80%;
+	height: 100%;
+}
+
+.ch {
+	background-color: white;
+    height: 90%;
+	width: 23%;
+	float: left;
+	
+	margin: auto;
+	margin: 18px;
+}
+.ch h1,h4{
+	color: black;
+	text-align: center;
+	
+}
+.ch h1:hover{
+	color: gold;
+}
+.ch a{
+	text-decoration: none;
+	font-style: normal;
+}
+.sec6{
+	background-image: url(../images/front-page-counter.jpg);
+	position: relative;
+	background-attachment: fixed;
+}
+.AA{
+	height: 30%;
+	width: 100%;
+}
+.BB h1{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+.BB{
+	float: left;
+	margin-top: 40px;
+	width: 33%;
+}
+.sec7{
+	background-color: #fff;
+}
+.sec7 h1{
+	font-size: 35px;
+    text-align: center;
+	font-weight: 700;
+}
+.sec7 p{
+	text-align: center;
+	color: #8c9597;
+}
+.D{
+	width:90%;
+	height: 50%;
+}
+
+.D1{
+	width:29%;
+	float: left;
+	margin-top: 50px;
+	margin: px;
+	padding: 25px;
+	
+}
+.D1_1 {
+	 width:30%;
+	float: right;
+	padding:20;
+     
+}
+.D1 h3{
+	color: rgb(241, 139, 109);
+}
+
+
+.D1 img{
+	width:100px;
+	border-radius: 50%;	
+}
+
+
+
+
+
